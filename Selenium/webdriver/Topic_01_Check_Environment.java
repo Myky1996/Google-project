@@ -28,12 +28,16 @@ String projectPath = System.getProperty("user.dir");
 		driver.get("http://demo.guru99.com/v4/");
 	}
 
+	
+	
 	@Test
 	public void TC_01_ValidateCurrentUrl() {
 		// Login Page Url matching
 		String loginPageUrl = driver.getCurrentUrl();
 		Assert.assertEquals(loginPageUrl, "http://demo.guru99.com/v4/");
 	}
+	
+	
 
 	@Test
 	public void TC_02_ValidatePageTitle() {
