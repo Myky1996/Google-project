@@ -12,7 +12,7 @@ import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
-public class Topic_04_Xpath_CSS {
+public class Topic_04_2_Xpath_CSS {
 	
 	WebDriver driver;
 
@@ -87,7 +87,9 @@ public class Topic_04_Xpath_CSS {
    
    //Get error message of password:
    assertEquals(driver.findElement(By.xpath("//li[@class='error-msg']//span")).getText(), "Invalid login or password.");
-}
+   
+   }
+   
    
    
 	@AfterClass
