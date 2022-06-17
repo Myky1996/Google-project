@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<suite  name="Tiki_1">
-
-<suite-files>
-<suite-file path = "RunTestcas.xml"/>
-<suite-file path = "Run_parameter.xml"/>
-
-</suite-files>
-</suite> <!-- Suite -->
