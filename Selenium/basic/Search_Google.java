@@ -21,7 +21,7 @@ public class Search_Google {
 
 	@BeforeClass
 	public void beforeClass() {
-		System.setProperty("webdriver.chrome.driver", projectPath + "/browserDrivers/chromedriver");
+		System.setProperty("webdriver.chrome.driver", projectPath + "\\browserDrivers\\chromedriver.exe");
 		driver = new ChromeDriver();
 		expliciteWait = new WebDriverWait(driver, 15);
 		driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
